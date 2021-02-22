@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
@@ -57,9 +56,9 @@ class SignupForm extends React.Component {
 
     render() {
         return (
-            <div className="login-form-container">
+            <div className="signup-form-container">
                 <form onSubmit={this.handleSubmit}>
-                    <div className="login-form">
+                    <div className="signup-form">
                         <br />
                         <input type="text"
                             value={this.state.email}
